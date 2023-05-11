@@ -1,0 +1,27 @@
+footer{
+    background: $color-green;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 10px 20px 10px;
+    justify-content:space-between ;
+    position: inherit;
+    margin-bottom: 0;
+
+    .redes{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            display: flex;
+            list-style: none;   
+    
+            li{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+
+

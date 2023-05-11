@@ -1,0 +1,6 @@
+/* - - - grid de conducir-mejor.html - - - */
+
+@mixin grid-column($column-start, $column-end){
+    grid-column-start: $column-start;
+    grid-column-end:$column-end;
+}

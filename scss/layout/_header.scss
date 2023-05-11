@@ -1,0 +1,29 @@
+@import"../utilities/variables";
+
+.navbar{
+    border:0;
+    background: $color-green;
+    .navbar-brand{
+        font-family: $font-header;
+    }
+
+    .logo{
+        width: 35px;
+        height: 30 px;
+        margin-left: 10px;
+    }
+
+    .border-dark {
+        padding: 0 10px;
+    }
+
+}
+
+
+.dropdown-toggle{
+
+    &::after {
+        display:none;
+    }
+
+}

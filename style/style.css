@@ -1,0 +1,204 @@
+.navbar {
+  border: 0;
+  background: #a0e548;
+}
+.navbar .navbar-brand {
+  font-family: "Russo One", sans-serif;
+}
+.navbar .logo {
+  width: 35px;
+  height: 30 px;
+  margin-left: 10px;
+}
+.navbar .border-dark {
+  padding: 0 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* - - - grid de conducir-mejor.html - - - */
+body {
+  background: #c4d1c8;
+}
+
+footer {
+  background: #a0e548;
+  border-top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 10px 20px 10px;
+  justify-content: space-between;
+  position: inherit;
+  margin-bottom: 0;
+}
+footer .redes {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .redes ul {
+  display: flex;
+  list-style: none;
+}
+footer .redes ul li {
+  margin-right: 15px;
+}
+
+.boton {
+  font-size: 20px;
+  font-weight: bold;
+  background: #9ac1f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .boton {
+    width: 180px;
+    font-size: 13px;
+  }
+}
+.boton:hover {
+  color: #f0f0f0;
+  border-radius: 2px solid black;
+}
+.boton::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.titulo-consultacar {
+  display: block;
+  padding: 35px 15px;
+}
+.titulo-consultacar h1 {
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  text-shadow: -10px 10px 10px #e6dfdf;
+}
+.titulo-consultacar h2 {
+  text-align: center;
+}
+
+.alinear {
+  text-align: center;
+}
+
+.acceso-rapido {
+  margin-top: 25px;
+  margin-bottom: 5%;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.imagen {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 50px;
+}
+.imagen .border-secondary {
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.8);
+}
+.imagen .border-secondary:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+.imagen img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.imagen p {
+  text-align: center;
+}
+
+article {
+  text-align: left;
+}
+article li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+article p {
+  line-height: 1.6;
+  margin-top: 24px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-card {
+  margin: 5%;
+}
+
+/* - - - grid de conducir-mejor.html - - - */
+#grilla {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  margin: 10px;
+}
+
+.centrar-video > iframe {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+#video1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 1;
+}
+
+#video2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row: 1;
+}
+
+#video3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+}
+
+#video4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 2;
+}
+
+#video5 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row: 2;
+}
+
+/*# sourceMappingURL=style.css.map */
