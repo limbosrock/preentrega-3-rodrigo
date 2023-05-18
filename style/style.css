@@ -108,6 +108,11 @@ footer .redes ul li {
   margin-bottom: 35px;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .imagen {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -159,6 +164,12 @@ article p {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  #grilla {
+    display: block;
+    justify-content: center;
+  }
 }
 
 .grid-item {
